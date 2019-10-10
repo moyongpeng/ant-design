@@ -19,10 +19,10 @@ import { Progress } from 'antd';
 ReactDOM.render(
   <div>
     <Progress percent={30} />
-    <Progress percent={50} status="active" />
-    <Progress percent={70} status="exception" />
-    <Progress percent={100} />
-    <Progress percent={50} showInfo={false} />
+    <Progress percent={0} status="active" />
+    <Progress percent={0} status="exception" />
+    <Progress percent={0} />
+    <Progress percent={0} showInfo={false} />
   </div>,
   mountNode,
 );
